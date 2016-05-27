@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:scthr:pain.001.001.03">
+  <CstmrCdtTrfInitn>
+      
+    <GrpHdr>
+      <MsgId>IdentPoruka1</MsgId>
+      <CreDtTm>2016-05-18T12:03:17.681Z</CreDtTm>
+      <NbOfTxs>3</NbOfTxs>
+      <InitgPty>
+        <Nm>marko</Nm>
+      </InitgPty>
+    </GrpHdr>
+      
+      
+    <PmtInf>
+      <PmtInfId>Uplata kredita</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <ReqdExctnDt>2016-05-19</ReqdExctnDt>
+      <Dbtr>
+        <Nm>Firma</Nm>
+        <PstlAdr>
+          <Ctry>HR</Ctry>
+          <AdrLine>Jablanska 43</AdrLine>
+          <AdrLine>Zagreb</AdrLine>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>HR3924020061100417572</IBAN>
+        </Id>
+        <Ccy>HRK</Ccy>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BIC>PBZGHR2X</BIC>
+        </FinInstnId>
+      </DbtrAgt>
+        
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>plaćanje lizaljke</InstrId>
+          <EndToEndId>Kredit za lizaljku</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="HRK">175.35</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>Lizači</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>HR6523300031100205901</IBAN>
+          </Id>
+        </CdtrAcct>
+        <Purp>
+          <Cd>CPYR</Cd>
+        </Purp>
+      </CdtTrfTxInf>
+        
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>rentanje kape</InstrId>
+          <EndToEndId>Kapa za glavu</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="HRK">35.99</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>Kapaši</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>HR6523300031100205901</IBAN>
+          </Id>
+        </CdtrAcct>
+        <Purp>
+          <Cd>CPYR</Cd>
+        </Purp>
+      </CdtTrfTxInf>
+    </PmtInf>
+      
+    <PmtInf>
+      <PmtInfId>drdex doo</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <ReqdExctnDt>2016-06-01</ReqdExctnDt>
+      <Dbtr>
+        <Nm>Očajnik</Nm>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <IBAN>HR3924020061100417572</IBAN>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BIC>PBZGHR2X</BIC>
+        </FinInstnId>
+      </DbtrAgt>
+        
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>izrada ključa</InstrId>
+          <EndToEndId>ključanica</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="HRK">100.00</InstdAmt>
+        </Amt>
+        <Cdtr>
+          <Nm>Špijunka doo</Nm>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <IBAN>HR6523300031100205901</IBAN>
+          </Id>
+        </CdtrAcct>
+        <Purp>
+          <Cd>CPYR</Cd>
+        </Purp>
+      </CdtTrfTxInf>
+    </PmtInf>
+      
+  </CstmrCdtTrfInitn>
+</Document>
